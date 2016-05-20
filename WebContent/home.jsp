@@ -78,8 +78,7 @@
 		
       </div>
 	  <br/>
-	  <br/>
-	  
+	  <br/>	  
       <div id="afterLogin" style="display:none">			 
 		  <table>
 			  <tr>
