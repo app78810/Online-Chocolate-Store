@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <head>
+      <title>Truffle Order Store</title>
+      <meta charset="UTF-8">
+	  
+	   <link type="text/css" rel="stylesheet" href="webcss.css">
+	   
+     <script type="text/javascript" src='script\lib\jquery-1.11.3.min.js'></script>
+	   <script type="text/javascript" src="script\order.js">
+			
+	   </script>
+	   
+   </head>
+   <body style="background-color:pink">
+   <div id="menu-bar">
+<div id="menu-content" class="clearfix">
+
+<ul  class="nav">
+<li class="menu"><a href="home.html">Home</a></li>	
+<li class="menu"><a href="homePage.html">Menu</a></li>
+<li class="menu"><a href="Aboutus.html">About US</a></li>
+<li class="menu"><a href="contactUs.html">Contact US</a></li>
+
+</ul> <!-- end ul#nav -->
+</div> <!-- end #menu-content-->
+</div>
+  <form name="order" action="checkout.jsp" method="get">
+   <div align = "center">
+	  <table border="0">
+                <tr>
+                        <td colspan="3">
+                        <p align="center"><b><font face="Arial">Truffle Store Order Form</font></b></td>
+                </tr>
+                <tr>
+                        <td>
+							<table>
+								<tr>
+                  <td>
+                    <input type="checkbox" value="DarkChocolate" id="DarkChoco" name="rad"/>
+                    <font face="Arial">Dark Chocolate</font>
+                  </td>
+				  <td>
+				  <img src="C:\Users\Amita\Desktop\Project Of IFE\Images\darkChoco.jpg" alt="Dark chocolate" style="width:150px;height:150px;">
+				  </td>
+                  <td>
+                    <span id='DarkChoco_price'>Price for Dark Chocolate $9.00</span>
+                  </td>
+                  <td>
+                    <input type='text' placeholder="Quantity" id='DarkChoco_quan' name="DarkChoco_quan">
+                  </td><br/>
+                </tr>
+				
+                <tr>
+                  <td>
+                    <input type="checkbox" value="milkChoco" id="milkChoco" name="rad">
+                    <font face="Arial">milk Chocolate</font>
+					
+                  </td>
+				  <td>
+				  <img src="C:\Users\Amita\Desktop\Project Of IFE\Images\milk.jpg" alt="Dark chocolate" style="width:150px;height:150px;">
+				  </td>
+                  <td>
+                    <span id='milkChoco_price'>Price for milk Chocolate $10.00</span>
+                  </td>
+                  <td>
+                    <input type='text' placeholder="Quantity" id='milkChoco_quan'>
+                  </td><br/>
+                </tr>
+				<tr>
+                  <td>
+                    <input type="checkbox" value="Caramel" id="Caramel" name="rad"/>
+                    <font face="Arial">Caramel</font>
+					 </td>
+				  <td>
+				  <img src="C:\Users\Amita\Desktop\Project Of IFE\Images\caramel.jpg" alt="Caramel" style="width:150px;height:150px;">
+				  </td>
+                  <td>
+                    <span id='Caramel_price'>Price for Caramel $10.00</span>
+                  </td>
+                  <td>
+                    <input type='text' placeholder="Quantity" id='Caramel_quan'>
+                  </td>
+                </tr>
+				
+				<tr>
+                  <td>
+                    <input type="checkbox" value="Nutty" id="Nutty" name="rad"/>
+                    <font face="Arial">Nutty</font>
+					
+                  </td>
+				   <td>
+				   <img src="C:\Users\Amita\Desktop\Project Of IFE\Images\nutty.jpg" alt="nutty" style="width:150px;height:150px;">
+				  </td>
+                  <td>
+                    <span id='Nutty_price'>Price for Nutty Chocolate$15.00</span>
+                  </td>
+                  <td>
+                    <input type='text' placeholder="Quantity" id='Nutty_quan'>
+                  </td>
+                </tr>
+				
+				<tr>
+                  <td>
+                    <input type="checkbox" value="Decadence" id="Decadence" name="rad"/>
+                    <font face="Arial">Dark Decadence</font>
+					
+                  </td>
+				   <td>
+				   <img src="C:\Users\Amita\Desktop\Project Of IFE\Images\decadence.jpg" alt="Decadence" style="width:150px;height:150px;">
+				  </td>
+                  <td>
+                    <span id='Decadence_price'>Price for Dark Decadence $14.00</span>
+                  </td>
+                  <td>
+                    <input type='text' placeholder="Quantity" id='Decadence_quan'>
+                  </td>
+                </tr>
+				
+				<tr>
+                  <td>
+                    <input type="checkbox" value="Signature" id="Signature" name="rad"/>
+                    <font face="Arial">Signature Chocolate Truffles</font>
+					
+                  </td>
+				   <td>
+				   <img src="C:\Users\Amita\Desktop\Project Of IFE\Images\signature.jpg" alt="signature" style="width:150px;height:150px;">
+				  </td>
+                  <td>
+                    <span id='Signature_price'> Price for Signature $12.00</span>
+                  </td>
+                  <td>
+                    <input type='text' placeholder="Quantity" id='Signature_quan'>
+                  </td>
+                </tr>
+				
+				<tr>
+                  <td>
+                    <input type="checkbox" value="Peanuts" id="Peanuts" name="rad"/>
+                    <font face="Arial">Peanuts cookies</font>
+					
+                  </td>
+				   <td>
+				   <img src="C:\Users\Amita\Desktop\Project Of IFE\Images\peanuts.jpg" alt="signature" style="width:150px;height:150px;">
+				  </td>
+                  <td>
+                    <span id='Peanuts_price'> Price for Peanuts Cookies $12.00</span>
+                  </td>
+                  <td>
+                    <input type='text' placeholder="Quantity" id='Peanuts_quan'>
+                  </td>
+                </tr>
+				
+				<tr>
+                  <td>
+                    <input type="checkbox" value="Almonds" id="Almonds" name="rad"/>
+                    <font face="Arial">Almond cookies</font>
+				</td>
+				   <td>
+				   <img src="C:\Users\Amita\Desktop\Project Of IFE\Images\almonds.jpg" alt="signature" style="width:150px;height:150px;">
+				  </td>
+                  <td>
+                    <span id='Almonds_price'> Price for Almonds Cookies $12.00</span>
+                  </td>
+                  <td>
+                    <input type='text' placeholder="Quantity" id='Almonds_quan'>
+                  </td>
+                </tr>
+				
+				<tr>
+                  <td>
+                    <input type="checkbox" value="Oats" id="Oats" name="rad"/>
+                    <font face="Arial">Oats cookies</font>
+				</td>
+				   <td>
+				   <img src="C:\Users\Amita\Desktop\Project Of IFE\Images\oats.jpg" alt="signature" style="width:150px;height:150px;">
+				  </td>
+                  <td>
+                    <span id='Oats_price'> Price for Oats Cookies $12.00</span>
+                  </td>
+                  <td>
+                    <input type='text' placeholder="Quantity" id='Oats_quan'>
+                  </td>
+                </tr>
+				
+				
+				<tr><td></td><td align="center">
+				<input type="submit" id="order" value="Place Order"/></td></tr>
+				<p id="errormsg"> </p>
+				
+        </table>
+		</div>
+   
+   </form>
+   <p id="out" align="center"><b><font face="Arial"></font></b></p>
+   </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Indian Restaurant - SignUp Page</title>
+        <meta charset="UTF-8">
+        
+		<style>
+		body {
+    background-image: url("signUp.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+</style>
+
+        <script type="text/javascript" src="createAccount.js"> </script>  
+</head>
+<body>
+<center>
+	<div id="top">
+	<h1 style="center;color:blue">Create Account</h1>
+
+		<br> <table><tr><td> -> * mark fields are mandatory </td></tr>
+		           <tr><td> -> password should be 7 to 16 characters which contain only characters, numeric digits, underscore and first character must be a letter </td>
+				</tr>	
+			  </table>
+			  <br>
+			  <br>
+			  <br>
+	<table>
+			<tr> <p id="errorMessage" style="color:red" ></p>
+			<td><label  >Username*:</label></td>
+                <td><input id="name" placeholder="username" type="text"/></td>
+            </tr>
+			<tr>
+				<td><label for="EmailAddress" >Email*:</label> </td>
+                <td><input id="EmailAddress" name="EmailAddress" type="text"  placeholder="xxxxxx@xxx.com" /> </td> 
+			</tr>
+			<tr> 
+			 <td> <label for="Password">Password*:</label></td>
+             <td><input id="Password" name="Password" type="password" placeholder="password"/></td>
+            </tr>
+			<tr>
+				<td> <label for="ConfirmPassword">Confirm Password*:</label></td>
+				<td><input id="ConfirmPassword" name="ConfirmPassword" type="password" placeholder="Confirm password"/></td>
+             </tr>
+			<tr>
+				<td> <label >Contact number:</label></td>
+				<td><input id="number" type="text" placeholder="(555)555-5555" /> </td> 
+			</tr>
+			<tr>
+				<td colspan="2"> <br>
+					 
+				<br> <center><input type="submit" value="Submit" id="createAccount"> </center> </td> 
+			</tr>
+        </table>
+	
+	<p> Already have an account ?? <a href="C:/Users/Amita/Desktop/ClientProject/homePage.html"><h3> Sign In <h3></a></p>
+			<p> Need help? <a href="contactUs.html"><h3> Contact Us <h3></a> </p>
+	</div>
+	<div id="bottom" style="display:none;align:center" ><br><br><br>
+	<h1><p> <a href="home.html">Sign In </a> to place an order   </p><h1>
+	
+	</div>
+</center>	
+    </body>
+</html>
